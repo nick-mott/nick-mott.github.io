@@ -1,0 +1,98 @@
+/*this is a comment in CSS & JS! */
+body {
+	font-family: Montserrat, Arial, sans-serif;
+	background-image: url(../images/background.jpg);/*../ means go up one folder path. ../../ means go up two folders*/
+	background-position: 50% 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.main{
+	background-color: rgba(255,255,255,0.5);
+	border border-radius: 10px;
+	padding: 30px;
+	max-width: 750px;
+	margin: 0 auto; /*Margin / padding & border-wdth accept shortcuts = top then right then botton then left*/
+	color: black;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 15px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 60px;
+	text-transform: uppercase;
+	border-top: 5px dotted black;
+	border-bottom: 5px dotted black;
+	margin: 15px;
+}
+
+h2 {
+	text-align: center;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	padding: 5px;
+	margin: 0;
+}
+
+h3{
+	text-align: center;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	cursor: pointer;
+}
+
+h3 + *{
+	display: none;
+}
+
+h4{
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	text-align: center;
+	margin: 10px;
+	padding-bottom: 5px;
+
+}
+
+img {
+	border:5px solid rgba(0,0,0,0.4);
+	border-radius: 5%;
+	padding: 10px;
+	height: 300px
+	min-width: 100px;
+	max-width: 400px;
+	display: block;
+	margin: 0 auto;
+}
+
+p,
+ol,
+ul {
+	list-style-type: none;
+	text-align: center;	
+	line-height: 1.6;
+	padding: 0px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+a{
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover { 
+		text-decoration:  underline;
+		background-color: orange;
+ }
+
+p{
+	text-align: center;
+	margin: 0px;
+}
+/*DRY DONT REPEAT YOURSELF*/
